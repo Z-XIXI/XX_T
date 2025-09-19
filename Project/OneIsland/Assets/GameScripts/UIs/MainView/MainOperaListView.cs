@@ -22,7 +22,7 @@ public class MainOperaListView : BaseView
         RecyclableScrollRect list = NodeList["opera_list"].GetComponent<RecyclableScrollRect>();
         list.ItemCallback = OperaListItemCreateCall;
 
-        var data = MainUIModel.Instance.operaList;
+        var data = MainUIModel.Instance.OperaListDatas;
         
         //var data = MainUICtrl.Instance.Model.operaList;
         operaListData.Add(new OperaListItemData("测试1"));

@@ -1,9 +1,18 @@
+using System.Collections.Generic;
+using UnityEngine;
+
 public class MainUIModel : SingletonClass<MainUIModel>, IModel
 {
-    public enum OpreaList
+    private List<OperaItemSO> _operaListDatas;
+    public List<OperaItemSO> OperaListDatas;
+    public MainUIModel()
     {
-        WishBottle, // ะํิธฦฟ
+        InitCfg();
     }
 
-    public string[] operaList = { "WishBottle" };
+    public void InitCfg()
+    {
+        MainUIOperaListSO cfg = AddressableManager.Instance.LoadAssetSync<MainUIOperaListSO>("MainUIOperaListSO");
+        _operaListDatas = cfg.operaListDatas;
+    }
 }

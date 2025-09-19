@@ -5,6 +5,7 @@ Temp/
 UIElementsSchema/
 UserSettings/
 .vscode/
+.vs/
 
 .vsconfig
 Assembly-CSharp.csproj
