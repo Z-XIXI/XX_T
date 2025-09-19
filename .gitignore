@@ -1,0 +1,13 @@
+Library/
+Logs/
+obj/
+Temp/
+UIElementsSchema/
+UserSettings/
+.vscode/
+
+.vsconfig
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-firstpass.csproj
+ElementCard2D.sln

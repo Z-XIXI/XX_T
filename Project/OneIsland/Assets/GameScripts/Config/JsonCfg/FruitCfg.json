@@ -1,0 +1,34 @@
+{
+    "tujian": [
+        {
+            "name": "苹果",
+            "growMode": 1,
+            "canGetSeed": 1
+        },
+        {
+            "name": "香蕉",
+            "growMode": 1,
+            "canGetSeed": 1
+        },
+        {
+            "name": "西瓜",
+            "growMode": 2,
+            "canGetSeed": 1
+        },
+        {
+            "name": "橘子",
+            "growMode": 1,
+            "canGetSeed": 1
+        },
+        {
+            "name": "柚子",
+            "growMode": 1,
+            "canGetSeed": 1
+        },
+        {
+            "name": "橙子",
+            "growMode": 1,
+            "canGetSeed": 0
+        }
+    ]
+}

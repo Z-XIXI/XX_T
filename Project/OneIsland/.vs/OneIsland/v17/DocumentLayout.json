@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\XX\\XX_T\\Project\\OneIsland\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|d:\\xx\\xx_t\\project\\oneisland\\assets\\gamescripts\\uis\\mainview\\mainoperalistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\uis\\mainview\\mainoperalistview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\uis\\mainview\\mainuimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\uis\\mainview\\mainuimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\uis\\mainview\\mainuictrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\uis\\mainview\\mainuictrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|d:\\xx\\xx_t\\project\\oneisland\\assets\\scripts\\tools\\singletonclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tools\\singletonclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\common\\uiinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\common\\uiinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\common\\gameuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\common\\gameuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\utilities\\uiviewenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\utilities\\uiviewenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\common\\viewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\common\\viewmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\common\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\common\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\common\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\common\\baseview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\gamescripts\\uis\\mainview\\mainroleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescripts\\uis\\mainview\\mainroleview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|D:\\XX\\XX_T\\Project\\OneIsland\\assets\\scripts\\tools\\recyclablescrollrect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15AE3173-64E4-64CF-8E70-7FE08FAB3709}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tools\\recyclablescrollrect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SingletonClass.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\Scripts\\Tools\\SingletonClass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tools\\SingletonClass.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\Scripts\\Tools\\SingletonClass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tools\\SingletonClass.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T12:55:07.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RecyclableScrollRect.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\Scripts\\Tools\\RecyclableScrollRect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tools\\RecyclableScrollRect.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\Scripts\\Tools\\RecyclableScrollRect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tools\\RecyclableScrollRect.cs",
+              "ViewState": "AgIAAK0BAAAAAAAAAAAiwLIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T12:08:54.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UIInterface.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\UIInterface.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\Common\\UIInterface.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\UIInterface.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\Common\\UIInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:50:15.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainUICtrl.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainUICtrl.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\UIs\\MainView\\MainUICtrl.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainUICtrl.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\UIs\\MainView\\MainUICtrl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:50:08.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainUIModel.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainUIModel.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\UIs\\MainView\\MainUIModel.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainUIModel.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\UIs\\MainView\\MainUIModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:49:49.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainRoleView.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainRoleView.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\UIs\\MainView\\MainRoleView.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainRoleView.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\UIs\\MainView\\MainRoleView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:49:19.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameUIController.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\GameUIController.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\Common\\GameUIController.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\GameUIController.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\Common\\GameUIController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAASwB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:45:55.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewManager.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\ViewManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\Common\\ViewManager.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\ViewManager.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\Common\\ViewManager.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:43:18.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameStart.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\GameStart.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\Common\\GameStart.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\GameStart.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\Common\\GameStart.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:39:00.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UIVIewEnums.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Utilities\\UIVIewEnums.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\Utilities\\UIVIewEnums.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Utilities\\UIVIewEnums.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\Utilities\\UIVIewEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T07:09:34.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainOperaListView.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainOperaListView.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\UIs\\MainView\\MainOperaListView.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\UIs\\MainView\\MainOperaListView.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\UIs\\MainView\\MainOperaListView.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwBgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T07:12:02.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseView.cs",
+              "DocumentMoniker": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\BaseView.cs",
+              "RelativeDocumentMoniker": "Assets\\GameScripts\\Common\\BaseView.cs",
+              "ToolTip": "D:\\XX\\XX_T\\Project\\OneIsland\\Assets\\GameScripts\\Common\\BaseView.cs",
+              "RelativeToolTip": "Assets\\GameScripts\\Common\\BaseView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:57:38.093Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
