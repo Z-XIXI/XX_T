@@ -22,8 +22,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c78a2a93b4c5ee47b4f1d39cdc26949
+    m_Address: WishStarView
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 982db59348a7ac04aa35451113bf3685
-    m_Address: MainView
+    m_Address: MainRoleView
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

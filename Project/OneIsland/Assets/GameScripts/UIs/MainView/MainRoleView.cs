@@ -1,18 +1,29 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MainRoleView : BaseView
 {
     protected override string viewName { get; } = ViewName.MainRoleView;
     protected override string assetName { get; } = ViewName.MainRoleView;
     protected override string bundleName { get; } = ViewName.MainRoleView;
-    protected override void InitView()
+    public MainRoleView() : base()
     {
-        base.InitView();
+        
     }
 
-    protected override void OpenCallback()
+    protected override void LoadCallback()
     {
-        Debug.Log("Open");
+        UniversalEventHandler roleEventHandle = NodeList["btn_role"].GetComponent<UniversalEventHandler>();
+        roleEventHandle.OnRightClickEvent = OnRightClickRoleEvent;
+    }
+
+    private void OnRightClickRoleEvent(PointerEventData eventData)
+    {
+        IView view = ViewManager.Instance.GetView(ViewName.MainOperaListView);
+        if (!view.IsOpen())
+        {
+            view.Open();
+        }
     }
     //public GameObject OperaBtnPanel;
     //public GameObject WishBottlePanel;

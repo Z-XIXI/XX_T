@@ -13,6 +13,7 @@ public class GameUIController
     public void InitAllControll()
     {
         InitController(MainUICtrl.Instance);
+        InitController(WishStarCtrl.Instance);
     }
     public void DeleteAllControll()
     {
@@ -24,7 +25,6 @@ public class GameUIController
     private void InitController(IController ctrl)
     {
         _controllers.Add(ctrl);
-        ctrl.Initialize();
     }
 
     private static GameUIController instance;

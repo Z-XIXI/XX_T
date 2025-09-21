@@ -25,8 +25,6 @@ public class RoleDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         // 根据鼠标移动更新位置
         Vector3 newPos = mainCamera.ScreenToWorldPoint(eventData.position) + offset;
-        Debug.Log(newPos.ToString());
-
         newPos.z = transform.position.z; // 保持原有的Z深度
         transform.position = newPos;
     }

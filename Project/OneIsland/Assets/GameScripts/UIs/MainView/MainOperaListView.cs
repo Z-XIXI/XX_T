@@ -9,7 +9,13 @@ public class MainOperaListView : BaseView
     protected override string viewName { get; } = ViewName.MainOperaListView;
     protected override string assetName { get; } = ViewName.MainOperaListView;
     protected override string bundleName { get; } = ViewName.MainOperaListView;
-    private List<OperaListItemData> operaListData = new List<OperaListItemData>();
+    /// <summary>
+    /// 操作列表数据
+    /// </summary>
+    private List<OperaItemSO> operaListData = new List<OperaItemSO>();
+    /// <summary>
+    /// 操作列表
+    /// </summary>
     private Dictionary<int, OperaListItem> operaListItems;
     protected override void InitView()
     {
@@ -18,19 +24,13 @@ public class MainOperaListView : BaseView
 
     protected override void LoadCallback()
     {
+        //操作列表
         operaListItems = new Dictionary<int, OperaListItem>();
         RecyclableScrollRect list = NodeList["opera_list"].GetComponent<RecyclableScrollRect>();
         list.ItemCallback = OperaListItemCreateCall;
-
-        var data = MainUIModel.Instance.OperaListDatas;
-        
-        //var data = MainUICtrl.Instance.Model.operaList;
-        operaListData.Add(new OperaListItemData("测试1"));
-        operaListData.Add(new OperaListItemData("测试2"));
-        operaListData.Add(new OperaListItemData("测试3"));
-        operaListData.Add(new OperaListItemData("测试4"));
-        operaListData.Add(new OperaListItemData("测试5"));
+        operaListData = MainUIModel.Instance.OperaListDatas;
         list.DataCount = operaListData.Count;
+
     }
 
     private void OperaListItemCreateCall(RectTransform item, int rowIndex)
@@ -93,6 +93,7 @@ public class MainOperaListView : BaseView
     {
         TextMeshProUGUI txt_opera_desc;
         Button btn_opera;
+        private OperaItemSO _data;
         public OperaListItem(RectTransform item) : base(item)
         {
             txt_opera_desc = NodeList["txt_opera_desc"].GetComponent<TextMeshProUGUI>();
@@ -100,13 +101,18 @@ public class MainOperaListView : BaseView
 
             btn_opera.onClick.AddListener(OnClickOperaBtn);
         }
-        public void UpdataData(OperaListItemData data)
+        public void UpdataData(OperaItemSO data)
         {
+            _data = data;
             txt_opera_desc.text = data.operaTitle;
         }
 
         private void OnClickOperaBtn()
         {
+            if (_data.operaType == OperaListItemType.WishStar)
+            {
+                ViewManager.Instance.Open(ViewName.WishStarView);
+            }
             Debug.Log("Click" + txt_opera_desc.text);
         }
     }

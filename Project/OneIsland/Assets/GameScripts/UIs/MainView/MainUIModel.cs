@@ -4,13 +4,11 @@ using UnityEngine;
 public class MainUIModel : SingletonClass<MainUIModel>, IModel
 {
     private List<OperaItemSO> _operaListDatas;
-    public List<OperaItemSO> OperaListDatas;
-    public MainUIModel()
+    public List<OperaItemSO> OperaListDatas
     {
-        InitCfg();
+        get { return _operaListDatas; }
     }
-
-    public void InitCfg()
+    public MainUIModel()
     {
         MainUIOperaListSO cfg = AddressableManager.Instance.LoadAssetSync<MainUIOperaListSO>("MainUIOperaListSO");
         _operaListDatas = cfg.operaListDatas;

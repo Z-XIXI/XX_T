@@ -55,10 +55,20 @@ public class BaseView : IView
         }
         LoadCallback();
     }
+    public async void Close()
+    {
+        //AddressableManager.Instance.ReleaseInstance<assetName>();
+    }
     public bool IsOpen()
     {
         return this.isOpen;
     }
+
+    protected T GetComponentSelf<T>(GameObject gameObject)
+    {
+        return gameObject.GetComponent<T>();
+    }
+
     protected virtual void LoadCallback()
     {
 
@@ -67,4 +77,5 @@ public class BaseView : IView
     {
 
     }
+
 }

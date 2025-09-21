@@ -13,9 +13,3 @@ public struct OperaItemSO
     public string operaTitle;
     public OperaListItemType operaType;
 }
-
-public enum OperaListItemType
-{
-    WishStar,
-    Farm,
-}

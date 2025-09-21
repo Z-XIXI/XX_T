@@ -6,7 +6,7 @@ public class MainUICtrl : SingletonClass<MainUICtrl>, IController
     public IModel Model => _model;
     public IView View => _mainRoleView;
 
-    public void Initialize()
+    public MainUICtrl()
     {
         _model = MainUIModel.Instance;
         _mainRoleView = new MainRoleView();

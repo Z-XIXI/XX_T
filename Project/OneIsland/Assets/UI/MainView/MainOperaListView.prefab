@@ -249,7 +249,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1534172413626207680}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -265,6 +265,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c691136aa54b644aff46a185139641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1716639439550572913
 CanvasRenderer:
   m_ObjectHideFlags: 0
