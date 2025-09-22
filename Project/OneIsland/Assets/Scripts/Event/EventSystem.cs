@@ -67,6 +67,18 @@ public class EventSystem
             eventListeners[eventName].Add(listener);
         }
     }
+    public void AddListener<T1, T2, T3, T4>(string eventName, Action<T1, T2, T3, T4> listener)
+    {
+        if (!eventListeners.ContainsKey(eventName))
+        {
+            eventListeners[eventName] = new List<Delegate>();
+        }
+
+        if (!eventListeners[eventName].Contains(listener))
+        {
+            eventListeners[eventName].Add(listener);
+        }
+    }
 
     // 移除事件监听器（带参数的）
     public void RemoveListener(string eventName, Action listener)
@@ -108,6 +120,18 @@ public class EventSystem
     }
 
     public void RemoveListener<T1, T2, T3>(string eventName, Action<T1, T2, T3> listener)
+    {
+        if (eventListeners.ContainsKey(eventName))
+        {
+            eventListeners[eventName].Remove(listener);
+
+            if (eventListeners[eventName].Count == 0)
+            {
+                eventListeners.Remove(eventName);
+            }
+        }
+    }
+    public void RemoveListener<T1, T2, T3, T4>(string eventName, Action<T1, T2, T3, T4> listener)
     {
         if (eventListeners.ContainsKey(eventName))
         {
@@ -170,6 +194,19 @@ public class EventSystem
                 if (listener is Action<T1, T2, T3> typedListener)
                 {
                     typedListener.Invoke(arg, arg2, arg3);
+                }
+            }
+        }
+    }
+    public void Fire<T1, T2, T3, T4>(string eventName, T1 arg, T2 arg2, T3 arg3, T4 arg4)
+    {
+        if (eventListeners.ContainsKey(eventName))
+        {
+            foreach (var listener in eventListeners[eventName])
+            {
+                if (listener is Action<T1, T2, T3, T4> typedListener)
+                {
+                    typedListener.Invoke(arg, arg2, arg3, arg4);
                 }
             }
         }

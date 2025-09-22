@@ -1,10 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ViewManager
+public class ViewManager : SingletonClass<ViewManager>
 {
-    private ViewManager(){
-    }
     private Dictionary<string, IView> _views = new Dictionary<string, IView>();
     /// <summary>
     /// 打开界面
@@ -29,7 +27,6 @@ public class ViewManager
     }
     public void RegisterView(string viewName, IView view)
     {
-        Debug.Log("RegisterView   " + viewName);
         if (!_views.ContainsKey(viewName))
         {
             _views.Add(viewName, view);
@@ -40,15 +37,5 @@ public class ViewManager
     public void Init(GameObject tempUIViewCanvas)
     {
         _uiViewCanvas = tempUIViewCanvas.transform;
-    }
-    private static ViewManager instance;
-    public static ViewManager Instance
-    {
-        get
-        {
-            if (null == instance)
-                instance = new ViewManager();
-            return instance;
-        }
     }
 }
