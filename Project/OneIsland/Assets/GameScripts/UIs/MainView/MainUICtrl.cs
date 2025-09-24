@@ -11,5 +11,12 @@ public class MainUICtrl : SingletonClass<MainUICtrl>, IController
         _model = MainUIModel.Instance;
         _mainRoleView = new MainRoleView();
         _mainOperaListView = new MainOperaListView();
+
+        EventSystem.Instance.AddListener<GameDataValueType, float, float>(GlobalEvents.GameDtatChange, OnGameDataValueChange);
+    }
+
+    public void OnGameDataValueChange<T1, T2, T3>(T1 eventType, T2 newValue, T3 oldValue)
+    {
+        
     }
 }

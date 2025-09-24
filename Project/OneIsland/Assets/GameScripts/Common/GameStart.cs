@@ -10,6 +10,7 @@ public class GameStart : MonoBehaviour
         DontDestroyOnLoad(this);
         GameUIController.Instance.Init();
         ViewManager.Instance.Init(UIViewCanvas);
+        GameDataManager.Instance.LoadGameData();
     }
     private void OnDestroy()
     {
@@ -26,5 +27,10 @@ public class GameStart : MonoBehaviour
                 view.Open();
             }
         }
+    }
+    void OnApplicationQuit()
+    {
+        // 游戏退出时自动保存
+        GameDataManager.Instance.SaveGameData();
     }
 }

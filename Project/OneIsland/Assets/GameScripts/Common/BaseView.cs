@@ -8,11 +8,12 @@ public class BaseView : IView
     protected virtual string assetName { get; }
     protected virtual string bundleName { get; }
     private bool isOpen;
-    private Dictionary<string, GameObject> nodeList;
+    private GameObject viewGameObject;
+    private Dictionary<string, GameObject> _nodeList;
     protected Dictionary<string, GameObject> NodeList
     {
-        get { return nodeList;  }
-        set { nodeList = value; }
+        get { return _nodeList;  }
+        set { _nodeList = value; }
     }
     protected BaseView()
     {
@@ -21,7 +22,6 @@ public class BaseView : IView
     }
     protected virtual void InitView()
     {
-        Debug.Log("viewName" + viewName);
         ViewManager.Instance.RegisterView(viewName, this);
     }
 
@@ -47,17 +47,21 @@ public class BaseView : IView
         }
 
         var obj = await AddressableManager.Instance.InstantiateAsync(assetName, ViewManager.Instance.UIViewCanvas);
-
+        viewGameObject = obj;
         UINameTable uiNameTab = obj.GetComponent<UINameTable>();
         if (null != uiNameTab)
         {
             NodeList = uiNameTab.ItemDic;
         }
-        LoadCallback();
+        this.LoadCallback();
     }
-    public async void Close()
+    public void Close()
     {
-        //AddressableManager.Instance.ReleaseInstance<assetName>();
+        
+    }
+    public void Relese()
+    {
+        AddressableManager.Instance.ReleaseInstance(viewGameObject);
     }
     public bool IsOpen()
     {
