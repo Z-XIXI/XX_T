@@ -1,4 +1,4 @@
-public class ViewName
+public class ViewNameEnum
 {
     public const string MainRoleView = "MainRoleView";
     public const string MainOperaListView = "MainOperaListView";

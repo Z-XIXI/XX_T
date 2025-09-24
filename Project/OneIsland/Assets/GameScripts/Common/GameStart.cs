@@ -21,7 +21,7 @@ public class GameStart : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            IView view = ViewManager.Instance.GetView(ViewName.MainOperaListView);
+            IView view = ViewManager.Instance.GetView(ViewNameEnum.MainOperaListView);
             if (null != view)
             {
                 view.Open();

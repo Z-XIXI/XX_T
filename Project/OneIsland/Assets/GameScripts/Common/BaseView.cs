@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class BaseView : IView
 {
-    protected virtual string viewName { get; }
-    protected virtual string assetName { get; }
-    protected virtual string bundleName { get; }
-    private bool isOpen;
-    private GameObject viewGameObject;
+    protected virtual string ViewName { get; }
+    protected virtual string AssetName { get; }
+    protected virtual string BundleName { get; }
+    private bool _isOpen;
+    private GameObject _viewGameObject;
     private Dictionary<string, GameObject> _nodeList;
-    protected Dictionary<string, GameObject> NodeList
-    {
-        get { return _nodeList;  }
-        set { _nodeList = value; }
-    }
+    protected Dictionary<string, GameObject> NodeList{ get => _nodeList; set => _nodeList = value;}
+
     protected BaseView()
     {
         InitView();
@@ -22,7 +19,7 @@ public class BaseView : IView
     }
     protected virtual void InitView()
     {
-        ViewManager.Instance.RegisterView(viewName, this);
+        ViewManager.Instance.RegisterView(ViewName, this);
     }
 
     public virtual void OpenView()
@@ -36,18 +33,18 @@ public class BaseView : IView
     }
     public async void Open()
     {
-        if (isOpen)
+        if (this._isOpen)
             return;
 
-        bool exists = await AddressableManager.Instance.CheckIfAssetExists(assetName);
+        bool exists = await AddressableManager.Instance.CheckIfAssetExists(AssetName);
         if (!exists)
         {
-            Debug.LogError($"Asset {assetName} does not exist!");
+            Debug.LogError($"Asset {AssetName} does not exist!");
             return;
         }
 
-        var obj = await AddressableManager.Instance.InstantiateAsync(assetName, ViewManager.Instance.UIViewCanvas);
-        viewGameObject = obj;
+        var obj = await AddressableManager.Instance.InstantiateAsync(AssetName, ViewManager.Instance.UIViewCanvas);
+        _viewGameObject = obj;
         UINameTable uiNameTab = obj.GetComponent<UINameTable>();
         if (null != uiNameTab)
         {
@@ -61,11 +58,11 @@ public class BaseView : IView
     }
     public void Relese()
     {
-        AddressableManager.Instance.ReleaseInstance(viewGameObject);
+        AddressableManager.Instance.ReleaseInstance(_viewGameObject);
     }
     public bool IsOpen()
     {
-        return this.isOpen;
+        return this._isOpen;
     }
 
     protected T GetComponentSelf<T>(GameObject gameObject)

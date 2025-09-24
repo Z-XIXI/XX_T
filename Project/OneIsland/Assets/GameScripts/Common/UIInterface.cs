@@ -4,6 +4,7 @@ public interface IView
 {
     void Open();
     bool IsOpen();
+    void Close();
 }
 
 public interface IController 

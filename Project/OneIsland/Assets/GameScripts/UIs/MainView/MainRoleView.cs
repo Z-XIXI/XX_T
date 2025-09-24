@@ -3,9 +3,9 @@ using UnityEngine.EventSystems;
 
 public class MainRoleView : BaseView
 {
-    protected override string viewName { get; } = ViewName.MainRoleView;
-    protected override string assetName { get; } = ViewName.MainRoleView;
-    protected override string bundleName { get; } = ViewName.MainRoleView;
+    protected override string ViewName { get; } = ViewNameEnum.MainRoleView;
+    protected override string AssetName { get; } = ViewNameEnum.MainRoleView;
+    protected override string BundleName { get; } = ViewNameEnum.MainRoleView;
     public MainRoleView() : base()
     {
         
@@ -19,7 +19,7 @@ public class MainRoleView : BaseView
 
     private void OnRightClickRoleEvent(PointerEventData eventData)
     {
-        IView view = ViewManager.Instance.GetView(ViewName.MainOperaListView);
+        IView view = ViewManager.Instance.GetView(ViewNameEnum.MainOperaListView);
         if (!view.IsOpen())
         {
             view.Open();

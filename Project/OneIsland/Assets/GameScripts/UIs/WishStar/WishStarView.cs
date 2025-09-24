@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class WishStarView : BaseView
 {
-    protected override string viewName { get; } = ViewName.WishStarView;
-    protected override string assetName { get; } = ViewName.WishStarView;
-    protected override string bundleName { get; } = ViewName.WishStarView;
+    protected override string ViewName { get; } = ViewNameEnum.WishStarView;
+    protected override string AssetName { get; } = ViewNameEnum.WishStarView;
+    protected override string BundleName { get; } = ViewNameEnum.WishStarView;
     public WishStarView() : base()
     {
 
@@ -57,9 +57,12 @@ public class WishStarView : BaseView
     {
 
     }
-
+    /// <summary>
+    /// µã»÷ÐíÔ¸
+    /// </summary>
     private void OnClickWish()
     {
-        Debug.Log("click wish...");
+        string wishItemName = input_wish.text;
+        //WishStarCtrl.Instance
     }
 }

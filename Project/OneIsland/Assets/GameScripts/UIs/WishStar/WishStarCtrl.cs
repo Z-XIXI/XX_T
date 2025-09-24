@@ -10,4 +10,11 @@ public class WishStarCtrl : SingletonClass<WishStarCtrl>, IController
         _model = WishStarModel.Instance;
         _wishStarView = new WishStarView();
     }
+    /// <summary>
+    /// 许愿得到物品
+    /// </summary>
+    public void WishToGet(string itemName)
+    {
+
+    }
 }

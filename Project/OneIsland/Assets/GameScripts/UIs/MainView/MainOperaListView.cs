@@ -6,9 +6,9 @@ using static MainUIModel;
 
 public class MainOperaListView : BaseView
 {
-    protected override string viewName { get; } = ViewName.MainOperaListView;
-    protected override string assetName { get; } = ViewName.MainOperaListView;
-    protected override string bundleName { get; } = ViewName.MainOperaListView;
+    protected override string ViewName { get; } = ViewNameEnum.MainOperaListView;
+    protected override string AssetName { get; } = ViewNameEnum.MainOperaListView;
+    protected override string BundleName { get; } = ViewNameEnum.MainOperaListView;
     /// <summary>
     /// 操作列表数据
     /// </summary>
@@ -111,7 +111,7 @@ public class MainOperaListView : BaseView
         {
             if (_data.operaType == OperaListItemType.WishStar)
             {
-                ViewManager.Instance.Open(ViewName.WishStarView);
+                ViewManager.Instance.Open(ViewNameEnum.WishStarView);
             }
             Debug.Log("Click" + txt_opera_desc.text);
         }
